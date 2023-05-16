@@ -1,8 +1,8 @@
 //Crear un programa en C que permita sumar 2 matrices de la misma dimensión
 #include <stdio.h>
 
-#define MAX_FILAS 5
-#define MAX_COLUMNAS 5
+#define MAX_FILAS 3
+#define MAX_COLUMNAS 2
 
 void sumarMatrices(int matriz1[][MAX_COLUMNAS], int matriz2[][MAX_COLUMNAS], int resultado[][MAX_COLUMNAS], int filas, int columnas) {
     int i, j;
